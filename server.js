@@ -344,7 +344,7 @@ app.post("/api/ratingbase", async (req, res) => {
         headers: {
           "Content-Type": "application/json",
         },
-        timeout: 10000, // Optional: Set a timeout (10 seconds) to avoid hanging
+        timeout: 80000, // Optional: Set a timeout (10 seconds) to avoid hanging
       }
     );
 
